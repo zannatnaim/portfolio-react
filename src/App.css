@@ -158,3 +158,156 @@ html {
         padding: 40px 20px;
     }
 }
+/* Skills Section — Card Grid */
+.skills {
+    padding: 70px 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.skills h2 {
+    font-size: 32px;
+    margin-bottom: 35px;
+    color: #1a1a2e;
+    text-align: center;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.skill-category {
+    background-color: white;
+    padding: 22px;
+    border-radius: 12px;
+    border: 1px solid #e8e8ee;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.skill-category:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(78, 205, 196, 0.15);
+}
+
+.skill-category h3 {
+    font-size: 13px;
+    color: #4ecdc4;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-tag {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Experience Section */
+.experience {
+    padding: 60px 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.experience h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #1a1a2e;
+}
+
+.experience-card {
+    background-color: #f4f4f9;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+}
+
+.experience-card h3 {
+    font-size: 20px;
+    color: #1a1a2e;
+}
+
+.experience-meta {
+    color: #4ecdc4;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 6px 0 12px;
+}
+
+/* Education Section — Card Style (matches Projects/Experience) */
+.education {
+    padding: 60px 40px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.education h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+    color: #1a1a2e;
+}
+
+.education-item {
+    background-color: #f4f4f9;
+    padding: 20px 25px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    margin-bottom: 15px;
+}
+
+.education-item:last-child {
+    margin-bottom: 0;
+}
+
+.education-item h3 {
+    font-size: 17px;
+    color: #1a1a2e;
+    margin-bottom: 4px;
+}
+
+.education-item p {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Updated Project Card Styles */
+.project-card {
+    margin-bottom: 20px;
+}
+
+.project-tech {
+    font-size: 13px;
+    color: #4ecdc4;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.project-links {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.project-links a {
+    color: #4ecdc4;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.project-links a:hover {
+    text-decoration: underline;
+}

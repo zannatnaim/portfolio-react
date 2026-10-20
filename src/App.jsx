@@ -1,6 +1,9 @@
 import './App.css'
 import About from './components/About'
+import Skills from './components/Skills'
+import Experience from './components/Experience'
 import Projects from './components/Projects'
+import Education from './components/Education'
 import Contact from './components/Contact'
 
 function App() {
@@ -10,6 +13,7 @@ function App() {
         <div className="logo">MD JANNATUL NAIM</div>
         <ul className="nav-links">
           <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -23,11 +27,14 @@ function App() {
       </section>
 
       <About />
+      <Skills />
+      <Experience />
       <Projects />
+      <Education />
       <Contact />
       <footer>
-    <p>&copy; 2026 MD Jannatul Naim. All rights reserved.</p>
-</footer>
+        <p>&copy; 2026 MD Jannatul Naim. All rights reserved.</p>
+      </footer>
     </>
   )
 }
