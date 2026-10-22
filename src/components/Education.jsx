@@ -1,9 +1,9 @@
 function Education() {
    const education = [
     {
-        degree: "B.Sc. in Computer Science (ongoing)",
-        institution: "Xian Shiyou University, China"
-    },
+    degree: "B.Sc. in Computer Science",
+    institution: "Xian Shiyou University, China · Expected Graduation: 2028"
+}
     {
         degree: "HSC — GPA 5.00 (Golden, all A+)",
         institution: "Bangladesh"
